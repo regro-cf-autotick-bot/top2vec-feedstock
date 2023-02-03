@@ -21,6 +21,7 @@ requirements:
   run:
     - cython
     - gensim >=4.0.0
+    - fuzzytm
     - hdbscan >=0.8.27
     - numpy >=1.20.0
     - pandas
