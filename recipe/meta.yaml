@@ -29,6 +29,7 @@ requirements:
     - umap-learn >=0.5.1
     - wordcloud
 
+
 test:
   imports:
     - top2vec
