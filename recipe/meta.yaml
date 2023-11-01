@@ -1,5 +1,5 @@
 {% set name = "top2vec" %}
-{% set version = "1.0.26" %}
+{% set version = "1.0.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/top2vec-{{ version }}.tar.gz
-  sha256: cd6ffc093b6ac2e24140df91e68b7332be013a969815d75714ebd06b3a022de7
+  sha256: 366b66ef79d64d3c975bd3365748263f4b9136db2b83fa03b60dae5b520d69d4
 
 build:
   noarch: python
